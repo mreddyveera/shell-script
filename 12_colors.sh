@@ -39,5 +39,5 @@ then
     VALIDATE $?
 
 else
-    echo -e "$G Git Installed...Already"
+    echo -e "$Y Git Installed...Already"
 fi
