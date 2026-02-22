@@ -14,7 +14,7 @@ VALIDATE(){
         echo "ERROR:: Installing git ... FAILURE"
         exit 1
     else
-        echo "INFO:: MYSQL INSTALAION SUCCESS
+        echo "INFO:: MYSQL INSTALAION SUCCESS"
     fi
 }
 
@@ -25,7 +25,7 @@ then
     dnf install mysql -y
     VALIDATE $?
 else
-    echo "INFO:: MYSQL already installed
+    echo "INFO:: MYSQL already installed"
 fi
 
 
